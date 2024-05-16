@@ -25,7 +25,6 @@
 - Create Rooms
 - Realtime group messaging with image sharing
 - Supports Emoji
-- Reaction on messages
 
 ## Installation and Usage
 
