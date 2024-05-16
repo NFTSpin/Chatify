@@ -24,7 +24,6 @@
 - Easy SignIn with Google
 - Create Rooms
 - Realtime group messaging with image sharing
-- Supports Emoji
 
 ## Installation and Usage
 
