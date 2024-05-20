@@ -108,13 +108,13 @@ function Messages({ values, msgId }) {
   const minute = date.getMinutes();
   const time = `${day}/${month}/${year}   ${hour}:${minute}`;
 
-  const numLikes = values.likeCount;
-  const numFire = values.fireCount;
-  const numHeart = values.heartCount;
+  // const numLikes = values.likeCount;
+  // const numFire = values.fireCount;
+  // const numHeart = values.heartCount;
 
-  const userLiked = values.likes[uid];
-  const userFire = values.fire[uid];
-  const userHeart = values.heart[uid];
+  // const userLiked = values.likes[uid];
+  // const userFire = values.fire[uid];
+  // const userHeart = values.heart[uid];
 
   const postImg = values.postImg;
 
