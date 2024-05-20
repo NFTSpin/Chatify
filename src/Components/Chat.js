@@ -18,7 +18,7 @@ import "emoji-mart/css/emoji-mart.css";
 
 const useStyles = makeStyles((theme) => ({
   root: {
-    flexGrow: 2,
+    flexGrow: 1,
   },
   chat: {
     position: "relative",
