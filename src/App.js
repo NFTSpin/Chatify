@@ -32,7 +32,7 @@ function App() {
           .get()
           .then((doc) => {
             if (doc.exists) {
-              console.log("user exits");
+              // console.log("user exits");
             } else {
               const details = {
                 name: user.displayName,
@@ -45,7 +45,7 @@ function App() {
                 .doc(user.uid)
                 .set(details)
                 .then((res) => {
-                  console.log("new user created");
+                  // console.log("new user created");
                 })
                 .catch((err) => {
                   console.log(err);
