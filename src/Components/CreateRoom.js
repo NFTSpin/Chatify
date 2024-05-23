@@ -34,7 +34,7 @@ function CreateRoom({ create, manage }) {
           {"Create A New Channel"}
         </DialogTitle>
         <DialogContent>
-          <form autoComplete="off" onSubmit={handleNewRoom}>
+          {/* <form autoComplete="off" onSubmit={handleNewRoom}>
             <TextField
               id="outlined-basic"
               label="Enter Channel Name"
@@ -48,7 +48,7 @@ function CreateRoom({ create, manage }) {
                 setRoomName(e.target.value);
               }}
             />
-          </form>
+          </form> */}
         </DialogContent>
         <DialogActions>
           <Button
