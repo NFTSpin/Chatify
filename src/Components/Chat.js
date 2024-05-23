@@ -49,16 +49,16 @@ const useStyles = makeStyles((theme) => ({
     marginBlockStart: 0,
     paddingLeft: "5px",
   },
-  // iconDesign: {
-  //   fontSize: "1.5em",
-  //   color: "#e5e5e5",
-  // },
-  // footerContent: {
-  //   display: "flex",
-  //   backgroundColor: "#303753",
-  //   borderRadius: "5px",
-  //   alignItems: "center",
-  // },
+  iconDesign: {
+    fontSize: "1.5em",
+    color: "#e5e5e5",
+  },
+  footerContent: {
+    display: "flex",
+    backgroundColor: "#303753",
+    borderRadius: "5px",
+    alignItems: "center",
+  },
   inputFile: {
     display: "none",
   },
