@@ -74,10 +74,10 @@ function App() {
             <main className={classes.content}>
               <div className={classes.toolbar} style={{ minHeight: "50px" }} />
               <Switch>
-                <Route path="/" exact>
+                {/* <Route path="/" exact>
                   <Home />
                 </Route>
-                <Route path="/channel/:id">
+                <Route path="/channel/:id"> */}
                   <Chat />
                 </Route>
               </Switch>
